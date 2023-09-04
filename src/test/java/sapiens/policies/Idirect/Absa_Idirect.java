@@ -150,7 +150,7 @@ public class Absa_Idirect extends WebDr {
     String policy_renewal_period = getValue("Policy_Renewal_Period");
     String vehicleCover = getValue("CoverType");
 
-
+/**Comment*/
     //Method to create recently selected policy
 
     public void selectRecentContact() {
@@ -171,6 +171,7 @@ public class Absa_Idirect extends WebDr {
 
     /**
      * Method to capture General Details of Personal Lines Policies
+     * Add a comment
      */
     public void generalDetails() {
 
