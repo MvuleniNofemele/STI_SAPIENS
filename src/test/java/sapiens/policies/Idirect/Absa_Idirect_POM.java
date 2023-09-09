@@ -91,8 +91,6 @@ public class Absa_Idirect_POM {
         Idirect_POM.put("chBoxVehicleFire","XPATH|//label[@id='flattendListflattenedPolicyItems|11@isSelectedLabel']");
         Idirect_POM.put("btnFinish&Next","XPATH|//button[@id='Finish'][@title='Next']");
 
-
-
         Idirect_POM.put("","");
         Idirect_POM.put("btnEndRiskDetails", "XPATH|//button[@id='next' and @title='End risk details']");//End Risk Details Button
         Idirect_POM.put("labelPayments", "XPATH|//div[@title='Payments']");//Payments Heading

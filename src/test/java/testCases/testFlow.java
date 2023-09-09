@@ -143,7 +143,8 @@ public class testFlow extends WebDr {
             new Login(wdriver, test).applicationLogin();
             new Endorse(wdriver,test).searchPolicy();
             new Endorse(wdriver,test).generalEndorsement();
-            new Endorse(wdriver,test).endorse();
+            new Endorse(wdriver, test).linesOfBusiness();
+            //new Endorse(wdriver,test).endorse();
 
 //            new Claims(wdriver, test).claimThroughPolicy(policyNumber);
 //            new Login(wdriver, test).applicationLogOut();
